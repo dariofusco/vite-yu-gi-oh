@@ -1,10 +1,12 @@
 <script>
 import TheHeader from "./components/TheHeader.vue";
 import TheFooter from "./components/TheFooter.vue";
+import CardsList from "./components/CardsList.vue"
 export default {
     components: {
         TheHeader,
         TheFooter,
+        CardsList,
     }
 }
 </script>
@@ -12,7 +14,7 @@ export default {
 <template>
 <TheHeader></TheHeader>
 <main>
-
+<CardsList></CardsList>
 </main>
 <TheFooter></TheFooter>
 </template>
@@ -20,6 +22,5 @@ export default {
 <style lang="scss">
 main {
     background-color: #d3853a;
-    height: 100vh;
 }
 </style>
