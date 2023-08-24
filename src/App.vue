@@ -11,10 +11,15 @@ export default {
 
 <template>
 <TheHeader></TheHeader>
-<main></main>
+<main>
+
+</main>
 <TheFooter></TheFooter>
 </template>
 
 <style lang="scss">
-
+main {
+    background-color: #d3853a;
+    height: 100vh;
+}
 </style>
