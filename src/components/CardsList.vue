@@ -39,7 +39,7 @@ export default {
 
 <template>
     <div class="container py-2">
-        <select class="form-select" v-model="searchArchetype" @click="fetchCards">
+        <select class="form-select" v-model="searchArchetype" @change="fetchCards">
             <option disabled value>Selezione carte da cercare</option>
             <option v-for="singleArchetype in archetype">{{ singleArchetype.archetype_name }}</option>
         </select>
